@@ -1,0 +1,9 @@
+[Unit]
+Description=Jail Attribute Monitor service.
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /usr/bin/LOGattribControl.sh
+
+[Install]
+WantedBy=multi-user.target

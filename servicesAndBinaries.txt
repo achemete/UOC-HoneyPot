@@ -1,0 +1,22 @@
+/lib/systemd/system/
+/etc/systemd/system
+
+-rw-r--r--. 1 root root  159 May 24 19:01 logDelete.service
+-rw-r--r--. 1 root root  160 May 24 19:01 logCreate.service
+-rw-r--r--. 1 root root  161 May 24 19:01 logAttribute.service
+-rw-r--r--. 1 root root  139 May 24 19:01 logSSH.service
+-rw-r--r--. 1 root root  154 May 24 19:01 logMove.service
+-rw-r--r--. 1 root root  164 May 24 19:01 logModify.service
+-rw-r--r--. 1 root root  160 May 24 19:01 logListing.service
+-rw-r--r--. 1 root root  168 May 29 17:58 sessionRecorder.service
+
+/usr/bin/
+
+-rwxr-xr-x. 1 root root     858 May 24 18:48  LOGattribControl.sh
+-rwxr-xr-x. 1 root root     900 May 24 18:48  LOGmoveControl.sh
+-rwxr-xr-x. 1 root root     758 May 24 18:48  LOGcreateControl.sh
+-rwxr-xr-x. 1 root root     770 May 24 18:48  LOGdeleteControl.sh
+-rwxr-xr-x. 1 root root     774 May 24 18:48  LOGlistingControl.sh
+-rwxr-xr-x. 1 root root     815 May 24 18:48  LOGmodifyControl.sh
+-rwxr-xr-x. 1 root root    1035 May 26 11:37  LOGssh.sh
+-rwxr-xr-x. 1 root root    1016 May 29 18:03  sessionRecorder.sh

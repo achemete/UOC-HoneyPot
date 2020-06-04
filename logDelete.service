@@ -1,0 +1,9 @@
+[Unit]
+Description=Jail Deletion Monitor service.
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /usr/bin/LOGdeleteControl.sh
+
+[Install]
+WantedBy=multi-user.target

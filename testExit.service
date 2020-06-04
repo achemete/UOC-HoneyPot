@@ -1,0 +1,9 @@
+[Unit]
+Description=Jail test Exit Monitor service.
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /usr/bin/testExit.sh
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,9 @@
+[Unit]
+Description=Jail Listing Monitor service.
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /usr/bin/LOGlistingControl.sh
+
+[Install]
+WantedBy=multi-user.target

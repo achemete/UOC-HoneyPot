@@ -1,0 +1,9 @@
+[Unit]
+Description=SSH Monitor service
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /usr/bin/LOGssh.sh
+
+[Install]
+WantedBy=multi-user.target

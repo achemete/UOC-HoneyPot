@@ -1,0 +1,9 @@
+[Unit]
+Description=Jail Admin Exit Monitor service.
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /usr/bin/userExit.sh
+
+[Install]
+WantedBy=multi-user.target
