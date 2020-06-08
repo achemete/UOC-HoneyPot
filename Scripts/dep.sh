@@ -8,4 +8,4 @@ for i in $( ldd $* | grep -v dynamic | cut -d " " -f 3 | sed 's/://' | sort | un
     cp -vf --parents $i $CHROOT
   done
 
-echo "Chroot jail is ready. To access it execute: chroot $CHROOT"
+echo "Dependencies for chroot directory $CHROOT have been added."
